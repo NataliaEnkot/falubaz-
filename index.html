@@ -94,10 +94,11 @@
     <section id="Kontakt">
         <h2>KONTAKT</h2>
         <img src="user.jpg" alt="smutna dziewczyna">
-        <form action="">
-            <input type="text" placeholder="Imię i Nazwisko">
-            <input type="email" placeholder="Email">
-            <textarea name="" id="" cols="30" rows="5" placeholder="Wiadomość"></textarea>
+        <form name="Formularz kontaktowy" 
+        method="POST" data-netlify="true">
+            <input name="Imię i Nazwisko" type="text" placeholder="Imię i Nazwisko">
+            <input name="Email" type="email" placeholder="Email">
+            <textarea name="Wiadomość" id="" cols="30" rows="5" placeholder="Wiadomość"></textarea>
             <input type="submit" value="Wyślij ">
         </form>
     </section>
